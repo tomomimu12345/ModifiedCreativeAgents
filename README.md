@@ -42,6 +42,14 @@ You need to install fabric mods to support all the features in Voyager. Remember
 
 Follow the instructions in [Fabric Mods Install](https://github.com/MineDojo/Voyager/blob/main/installation/fabric_mods_install.md) to install the mods.
 
+## API KEY
+Create a `.env` file in the root of your project and add the following variables:
+
+| Variable Name                   | Description                                        |
+|--------------------------------|----------------------------------------------------|
+| `OPENAI_API_KEY`                | Your OpenAI API key (if required).                  |
+| `GOOGLE_API_KEY`                | Your Google API key (if required).                  |
+
 ## Get Started
 ### text to build
 ```
